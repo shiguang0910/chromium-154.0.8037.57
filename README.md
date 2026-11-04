@@ -12,7 +12,7 @@ Release 中提供 15 个分片（`part01`–`part15`，每片约 1.9GB，最后�
 
 ```bash
 # 下载全部 part 后
-cat chromium-154.0.8037.57.tar.part?? > chromium-154.0.8037.57.tar
+cat chromium-154.0.8037.57.tar.part* > chromium-154.0.8037.57.tar
 sha256sum chromium-154.0.8037.57.tar
 # 应为：
 # d08d3f25e24457d5ccec794aabddd0327b1e7b0c406c074b52b76e2cfa12026f
